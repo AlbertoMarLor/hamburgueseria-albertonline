@@ -328,26 +328,57 @@ main #ourservices p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* final ourservices */
 
+/* inicio aboutus */
+
+
+main #aboutus .flex {
+    display: flex;
+    flex-direction: column;
+    gap: var(--margingrid);
+}
+
+main #aboutus h3 {
+    font-weight: 700;
+    font-size: 110%;
+}
+
+main #aboutus h4 {
+    margin: 1em 0;
+    color: var(--colorprincipal);
+}
+
+main section p {
+    color: #777;
+    line-height: 1.25em;
+}
+
+
+main #aboutus .marco {
+    border: 3px solid var(--colorprincipal);
+    transform: rotateZ(10deg);
+    width: 95%;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+/* hay que poner la transicion en la imagen y en en el marco para conseguir el efecto deseado */
+main #aboutus .marco img {
+    transform: rotateZ(-10deg);
+    transition: 1s;
+}
+
+main #aboutus figure:hover :is(.marco, img) {
+    transform: rotateZ(0deg);
+}
 
 
 
-
-
+/* final aboutus */
 /* mediaqueries */
 
+/* 600px */
 @media(min-width: 37.500em) {
     main #ourservices .grid {
         grid-template-columns: repeat(2, 1fr);
@@ -364,6 +395,11 @@ main #ourservices p {
         padding: 1.5em;
     }
 
+    main #aboutus .flex {
+
+        flex-direction: row;
+
+    }
 
 
 }
