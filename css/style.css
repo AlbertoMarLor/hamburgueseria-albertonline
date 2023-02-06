@@ -519,5 +519,19 @@ main #ourblogs article>div {
     }
 
 
+    main #ourblogs .flex {
+
+        flex-wrap: nowrap;
+
+    }
+
+    main #ourblogs figure div {
+
+        width: 22.5%;
+        height: 32.5%;
+
+
+    }
+
 
 }
