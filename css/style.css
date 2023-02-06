@@ -376,6 +376,70 @@ main #aboutus figure:hover :is(.marco, img) {
 
 
 /* final aboutus */
+
+/* inicio ourblogs */
+
+main #ourblogs h1 {
+    display: none;
+}
+
+main #ourblogs .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+main #ourblogs article {
+    width: calc(50% - 25px)
+}
+
+main #ourblogs article:last-child {
+    width: 50%;
+}
+
+main #ourblogs figure {
+    position: relative;
+}
+
+main #ourblogs figure div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fa573aa9;
+    width: 30%;
+    height: 45%;
+    background-blend-mode: screen;
+
+}
+
+main #ourblogs figure div p {
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    font-family: var(--fuenteprincipal);
+    font-weight: 700;
+    font-size: 120%;
+}
+
+main #ourblogs h3 {
+    font-family: var(--fuenteprincipal);
+    font-size: 130%;
+    padding-top: 7.5%;
+
+}
+
+main #ourblogs h5 {
+    font-weight: 700;
+    color: var(--colorprincipal);
+    padding: 5% 0;
+}
+
+main #ourblogs article>div {
+    padding-top: 7.5%;
+}
+
+/* final ourblogs */
+
 /* mediaqueries */
 
 /* 600px */
@@ -405,7 +469,7 @@ main #aboutus figure:hover :is(.marco, img) {
 }
 
 
-
+/* 768 px */
 @media(min-width:48.000em) {
 
     header .nav-top a span {
