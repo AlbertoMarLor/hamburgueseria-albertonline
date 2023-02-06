@@ -405,7 +405,7 @@ main #aboutus figure:hover :is(.marco, img) {
 }
 
 
-
+/* 768 px */
 @media(min-width:48.000em) {
 
     header .nav-top a span {
