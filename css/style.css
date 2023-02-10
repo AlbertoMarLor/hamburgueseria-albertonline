@@ -648,5 +648,49 @@ main #todaysmenu article>div {
 
     }
 
+    main #todaysmenu .container {
+
+        min-width: 900px;
+
+    }
+
+
+    main #todaysmenu .flex {
+
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    main #todaysmenu .flex div:first-child {
+
+        width: 25%;
+    }
+
+    main #todaysmenu .flex div:last-child {
+
+        width: 75%;
+    }
+
+    main #todaysmenu nav {
+
+        margin: 45% 0;
+
+    }
+
+    main #todaysmenu article {
+        display: flex;
+        margin: 11% 5% 5% 1%;
+
+    }
+
+    main #todaysmenu figure {
+        width: 35%;
+
+    }
+
+    main #todaysmenu div div:last-child {
+        margin: 0%
+    }
 
 }
