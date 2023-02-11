@@ -540,7 +540,7 @@ main #todaysmenu article {
 main #todaysmenu article p {
 
     position: absolute;
-    top: 70.5%;
+    top: 70%;
     left: 90%;
     color: var(--colorprincipal);
     font-weight: 700;
@@ -555,6 +555,10 @@ main #todaysmenu h1 {
     display: none;
 }
 
+main #todaysmenu div.enlace {
+    margin-top: 5%;
+
+}
 
 /* final todaysmenu */
 
