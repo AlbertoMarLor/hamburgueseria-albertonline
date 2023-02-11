@@ -406,8 +406,8 @@ main #ourblogs figure div {
     top: 0;
     left: 0;
     background-color: #fa573aa9;
-    width: 30%;
-    height: 45%;
+    width: 40%;
+    height: 55%;
     background-blend-mode: screen;
 
 }
@@ -653,6 +653,11 @@ main #todaysmenu div.enlace {
         height: 32.5%;
 
 
+    }
+
+    main #ourblogs article:last-child figure img {
+
+        width: 95%;
     }
 
     main #todaysmenu .container {
