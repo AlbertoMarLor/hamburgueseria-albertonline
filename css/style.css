@@ -363,7 +363,7 @@ main #aboutus .marco {
     transition: 1s;
 }
 
-/* hay que poner la transicion en la imagen y en en el marco para conseguir el efecto deseado */
+
 main #aboutus .marco img {
     transform: rotateZ(-10deg);
     transition: 1s;
@@ -551,6 +551,9 @@ main #todaysmenu article>div {
     margin: 5% 0 15% 0;
 }
 
+main #todaysmenu h1 {
+    display: none;
+}
 
 
 /* final todaysmenu */
@@ -650,7 +653,7 @@ main #todaysmenu article>div {
 
     main #todaysmenu .container {
 
-        min-width: 900px;
+        min-width: 1200px;
 
     }
 
@@ -680,17 +683,60 @@ main #todaysmenu article>div {
 
     main #todaysmenu article {
         display: flex;
-        margin: 11% 5% 5% 1%;
+        margin: 5% 5% 5% 1%;
 
     }
 
     main #todaysmenu figure {
-        width: 35%;
+        width: 20%;
 
     }
 
     main #todaysmenu div div:last-child {
         margin: 0%
+    }
+
+    main #todaysmenu .flex h3 {
+        margin-top: 1%;
+        font-size: 120%;
+        margin-left: 5%;
+        margin-bottom: -2.5%;
+    }
+
+    main #todaysmenu .flex h4 {
+
+        margin: 5%;
+
+    }
+
+    main #todaysmenu a {
+
+        margin-left: 7%;
+    }
+
+    main #todaysmenu article p {
+
+        top: -32%;
+        left: 75%;
+
+    }
+
+    main #todaysmenu .flex hr {
+
+        width: 4%;
+        left: 0%;
+        top: 74.5%;
+
+
+    }
+
+    main #todaysmenu .derecha {
+        padding-top: 7%;
+    }
+
+    main #todaysmenu li {
+
+        width: 75%;
     }
 
 }
